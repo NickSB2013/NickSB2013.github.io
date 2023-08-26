@@ -75,7 +75,7 @@ div.vertical {
 onblur="this.placeholder = 'Stage 1 Answer'"  onclick= "this.placeholder = '' " " ></input> <br />
 
 					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+					<p id="wrongPassword" style="display: none">Wrong Answer </p>
 				</div>
 			</div>
 		</div>
@@ -112,7 +112,7 @@ onblur="this.placeholder = 'Stage 1 Answer'"  onclick= "this.placeholder = '' " 
 				parent.location.hash= hash;
 
 				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
+				$("#password").attr("placeholder","Wrong Answer");
 				$("#password").val("");
 			}
 		});
